@@ -1,5 +1,4 @@
 // we want to randomly choose 3 of these sentences
-
 const objMessages = {
    // first inspirational message will be taken from this array
 
@@ -41,20 +40,13 @@ const objMessages = {
 let result = [];
 
 //iterating trought the object
-
-Object.keys(objMessages).forEach(message => 
-   result.push(objMessages[message][Math.floor(Math.random()* objMessages[message].length)]));
-   
-   //console.log(result);
   
-   const display = (result) => {
-      console.log(result);
-    } ;  
-       
-    display(result);
-   
-    
-   
+let display = Object.keys(objMessages).forEach(message => 
+   result.push(objMessages[message][Math.floor(Math.random()* objMessages[message].length)]));
+   console.log(result);   
+   return result;   
+
+
 
 
 
