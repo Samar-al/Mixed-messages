@@ -34,29 +34,30 @@ const objMessages = {
    "You can do it",
    "Believe in yourself"
    ],
-   
-   
+    
 };
+
 // variable in wich we're going to put the result
-//let display = [];
+let result = [];
+
 //iterating trought the object
-//console.log(objMessages.messages2[3]);
-for (const message of Object.entries(objMessages)) {
-  for(const line of Object.entries(message)){
-     console.log(line);
-   let index = [Math.floor(Math.random()* line.length)];
-    console.log(index);
-    //let display = objMessages.messages1[index];
-    //console.log(display);
-  };
+
+Object.keys(objMessages).forEach(message => 
+   result.push(objMessages[message][Math.floor(Math.random()* objMessages[message].length)]));
+   
+   //console.log(result);
+  
+   const display = (result) => {
+      console.log(result);
+    } ;  
+       
+    display(result);
+   
     
    
-};
 
 
 
 
 
-//let display = ;
-     
-//console.log(objMessages.messages1);
+
