@@ -1,0 +1,92 @@
+<style>
+
+body{
+    background-color: lavenderblush;
+  }
+#main {
+    border: 3px solid lavender;
+  border-radius: 0% 30% 0% 30%;
+  padding-right: 20px ;
+  padding-left: 20px;
+  margin-right: 60px;
+  margin-left: 60px;
+  background-image: linear-gradient(to right, lavender, rgb(102, 178, 180));
+  font-family: 'Times New Roman', Times, serif;}
+  
+#title {
+    text-align: center;
+    color: slateblue;
+    font-size: 2em;
+} 
+#text {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    background-color: aliceblue;
+    border: 3px solid rgb(169, 169, 211);
+    margin-right: 60px;
+    margin-left: 60px;
+    padding: 2%;
+    align-items: center;
+}
+
+
+
+#bouton{
+    margin: auto;
+    width: 16%;
+    border: 2px solid rgb(156, 209, 202);
+    border-radius: 0% 30% 0% 30%;
+    box-shadow: 0px 5px 5px 0px rgb(68, 68, 68);
+    background-color: lavender;
+    color: black;
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#bouton:hover{
+  margin: auto;
+  width: 16%;
+  background-color: #9fbbf0;
+  color: black;
+  padding: 10px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+  font-style: italic;
+  font-family: 'Times New Roman', Times, serif; 
+
+}
+
+.container {
+  
+    border: 3px solid lavender;
+    padding: 70px;
+    border-radius: 50%;
+    display: block;
+    text-align: center;
+    margin-top: 6em;
+    margin-left: 6em;
+    margin-right: 9em;
+    background-image: linear-gradient(to right, lavender, rgb(102, 178, 180));
+    transform: skewY(4deg);
+}
+
+#answer {
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+ font-size: medium;   
+transform: skewY(-4deg);
+}
+
+footer{
+  position:absolute;
+   bottom:0;
+   width:100%;
+   height:60px;   /* Height of the footer */
+   text-align: center;
+}
+</style>
