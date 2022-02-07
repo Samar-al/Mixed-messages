@@ -1,10 +1,10 @@
 <style>
 
 body{
-    background-color: lavenderblush;
+    background-color: grey;
   }
 #main {
-    border: 3px solid lavender;
+  border: 3px solid lavender;
   border-radius: 0% 30% 0% 30%;
   padding-right: 20px ;
   padding-left: 20px;
@@ -63,8 +63,8 @@ body{
 }
 
 .container {
-  
-    border: 3px solid lavender;
+
+    border: 0.2rem solid lavender;
     padding: 70px;
     border-radius: 50%;
     display: block;
@@ -74,6 +74,25 @@ body{
     margin-right: 9em;
     background-image: linear-gradient(to right, lavender, rgb(102, 178, 180));
     transform: skewY(4deg);
+}
+
+#container {
+  animation-name: grad;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes grad {
+ 0%{
+   border-color: #00cc99;
+ }
+ 
+ 50%{
+   border-color: #eef0f5;
+ }
+ 100%{
+   border-color: #6600ff;
+ } 
 }
 
 #answer {

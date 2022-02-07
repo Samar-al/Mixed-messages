@@ -38,11 +38,6 @@ const objMessages = {
     
 };
 
-// variable in witch we're going to put the result
-
-  // let display = [];
-   
-
 // get a random index
 let randomIndex = (arr)=> {
    let index = Math.floor(Math.random() * arr.length);
@@ -52,16 +47,15 @@ let randomIndex = (arr)=> {
 
 //iterating trought the object to select randomly 1 message from each part then push it into result
   let displayRand = () =>{
+     // an array in witch we put the result
      let result = [];
-   const itter = Object.keys(objMessages).forEach(message => result.push(objMessages[message][randomIndex(message)]));
+   const iter = Object.keys(objMessages).forEach(message => result.push(objMessages[message][randomIndex(message)]));
    answer.innerHTML = result;
    //console.log(result);
-   return itter
+   return iter
   };
 //displayRand();
-
-   
-button.onclick = displayRand;
+    button.onclick = displayRand;
    
 
 
