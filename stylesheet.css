@@ -47,6 +47,28 @@ body{
     font-family: 'Times New Roman', Times, serif;
 }
 
+@media screen and (max-width: 600px) {
+  #bouton {
+    font-size: 5px;
+      padding:5px 12px;
+  }
+    .container {
+
+    border: 0.2rem solid lavender;
+    padding: 35px;
+    border-radius: 50%;
+    display: block;
+    text-align: center;
+    margin-top: 3em;
+    margin-left: 3em;
+    margin-right: 4.5em;
+    background-image: linear-gradient(to right, lavender, rgb(102, 178, 180));
+    transform: skewY(4deg);
+}
+    
+}
+
+
 #bouton:hover{
   margin: auto;
   width: 16%;
