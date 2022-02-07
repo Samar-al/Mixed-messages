@@ -23,4 +23,4 @@ Everytime a user clicks on the button, three new random messages appear.
 </ul>
 
 <h2>View Program</h2>
-https://Samar-al.github.io/Mixed-messages/
+You need to download the 3 files to your computer, then launch index.html with your browser.
