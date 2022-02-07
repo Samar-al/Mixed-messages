@@ -48,18 +48,24 @@ body{
 }
 
 @media screen and (max-width: 600px) {
+    #title {
+     font-size: 1em;   
+    }
+    #text{
+        font-size: 10px;
+    }
   #bouton {
-    font-size: 5px;
+    font-size: 8px;
       padding:5px 12px;
   }
     .container {
 
     border: 0.2rem solid lavender;
-    padding: 35px;
+    padding: 15px;
     border-radius: 50%;
     display: block;
     text-align: center;
-    margin-top: 3em;
+    margin-top: 2em;
     margin-left: 3em;
     margin-right: 4.5em;
     background-image: linear-gradient(to right, lavender, rgb(102, 178, 180));
