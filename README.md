@@ -1,5 +1,5 @@
 # Mixed-messages
-Mixed Messages Project from Codecademy - Inspirational Messages generator
+<h1>Mixed Messages Project from Codecademy - Inspirational Messages Generator</h1>
 
 Everytime a user clicks on the button, three new random messages appear.
 
