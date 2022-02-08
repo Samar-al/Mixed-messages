@@ -9,7 +9,7 @@ const objMessages = {
     "If you want something done, do it yourself",
     "Hard work always pays",
     "You get what you give",
-    "Beleive you can and you're halfway there",
+    "Believe you can and you're halfway there",
     "Hardchip is what you need to start a project, consistency helps you finish it",
     "Success is no final, failure is not fatal, it is the courage to continue that counts",
     "You define your own life, don't let other people write your script",

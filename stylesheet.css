@@ -47,6 +47,42 @@ body{
     font-family: 'Times New Roman', Times, serif;
 }
 
+/*@media screen and (max-width: 600px) {
+    #title {
+     font-size: 1em;   
+    }
+    #text{
+        font-size: 10px;
+    }
+  #bouton {
+      width: 8%;
+    font-size: 8px;
+      padding:5px 12px;
+  }
+    #bouton:hover {
+      width: 8%;
+    font-size: 8px;
+      padding:5px 12px;
+  }
+    .container {
+
+    border: 0.2rem solid lavender;
+    padding: 5px;
+    border-radius: 20%;
+    display: block;
+    text-align: center;
+    margin-top: 2em;
+    margin-left: 3em;
+    margin-right: 4.5em;
+    background-image: linear-gradient(to right, lavender, rgb(102, 178, 180));
+    }
+    #awnser{
+    font-size: 3px;
+    }
+    
+}*/
+
+
 #bouton:hover{
   margin: auto;
   width: 16%;
