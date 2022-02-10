@@ -40,7 +40,7 @@ const objMessages = {
 
 // get a random index
 let randomIndex = (arr)=> {
-   let index = Math.floor(Math.random() * arr.length);
+   let index = Math.floor(Math.random() * (arr.length-1));
    //console.log(index);
    return index;
 };
