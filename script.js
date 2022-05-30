@@ -28,7 +28,7 @@ const objMessages = {
 
    messages3: [" seize the day",
    " Do what you want",
-   " F... the world",
+   " Hell with the the world",
    " you are your own boss",
    " Fulfill your dreams",
    " Don't let anyone stop you",
